@@ -98,6 +98,7 @@ resource "azurerm_network_security_group" "my_terraform_nsg" {
       destination_address_prefix = "*"
     }
   }
+  #samir yheb birra ch3ir
 
   tags = {
     environment = var.environment

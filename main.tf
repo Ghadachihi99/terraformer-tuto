@@ -1,4 +1,4 @@
-resource "azurerm_resource_group" "myrg" {
+resource "azurerm_resource_group" "example-rg" {
   name     = "rgdynamic"
   location = "East US"
 }

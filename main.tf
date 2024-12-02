@@ -1,7 +1,3 @@
-resource "azurerm_resource_group" "waaa" {
-  name     = "rgdynamic"
-  location = "East US"
-}
 
 resource "azurerm_virtual_network" "example" {
   name                = "myVnet-${var.environment}"
